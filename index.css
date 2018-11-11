@@ -1,0 +1,16 @@
+h1 {
+  color: #e6b3cc;
+  border-style: solid;
+}
+h2 {
+  color: #c6538c;
+  border-style: dotted;
+}
+p {
+  color: #c6538c;
+  text-shadow: 12px 10px #e6b3cc;
+  padding: -5px -5px -5px -5px;
+}
+* {
+  font-family: Helvetica;
+}

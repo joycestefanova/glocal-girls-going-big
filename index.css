@@ -1,16 +1,67 @@
+index.css
+Сегодня
+19:24
+
+Пользователь Joana Stefanova изменил объект
+CSS
+index.css
+За прошлую неделю
+вс 17:23
+
+Пользователь Joana Stefanova изменил настройки доступа к 1 объекту
+CSS
+index.css
+Редактирование
+Все, у кого есть ссылка
+вс 17:23
+
+Пользователь Joana Stefanova открыл доступ к 1 объекту
+CSS
+index.css
+Просмотр
+Все, у кого есть ссылка
+вс 17:05
+
+Пользователь Joana Stefanova загрузил 1 объект
+CSS
+index.css
+header {
+  text-align: center;
+  background: url('http://dash.ga.co/assets/jeff-bg.png');
+  background-size: cover;
+  color: white;
+}
+a {
+  color: white;
+}
 h1 {
-  color: #e6b3cc;
-  border-style: solid;
+  font-size: 70px;
 }
-h2 {
-  color: #c6538c;
-  border-style: dotted;
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
 }
-p {
-  color: #c6538c;
-  text-shadow: 12px 10px #e6b3cc;
-  padding: -5px -5px -5px -5px;
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
 }
-* {
-  font-family: Helvetica;
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
 }

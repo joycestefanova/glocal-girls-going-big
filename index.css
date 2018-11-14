@@ -1,6 +1,8 @@
 header {
   text-align: center;
   background: url('http://www.shootestudios.com/wp-content/uploads/2015/11/BL_JUL2016_005.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
   color: black;
 }
 a {

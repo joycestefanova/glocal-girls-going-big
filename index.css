@@ -16,7 +16,7 @@ img {
   border: 7px solid white;
   border-radius: 20px;
 }
-ul {
+#navigation {
   padding: 10px;
   background: rgba(0,0,0,0.5);
 }

@@ -9,10 +9,12 @@ a {
   color: white;
   font-family: "Emblema One";font-size: 25px;
 }
+
 h1 {
     font-family: "Emblema One";font-size: 150px;
     color: orange;
 }
+
 h2 {
   text-align: left;
   font-family: "Emblema One";font-size: 25px;
@@ -21,10 +23,12 @@ h2 {
   padding: 20px;
   margin: 0 auto;
 }
+
 p {
   font-family: "Helvetica";font-size: 12px;
   padding: -200px;
 }
+
 .photos {
   float: left;
   width: 100%;
@@ -35,6 +39,7 @@ p {
   padding: 20px;
   background: rgba(0,0,0,0.5);
 }
+
 li {
   display: inline;
   padding: 0px 20px 0px 10px;
@@ -43,19 +48,23 @@ li {
 .navbar {
   margin-top: 400px;
 }
+
 article {
   max-width: 500px;
   padding: 20px;
   margin: 0 auto;
 }
+
 @media (max-width: 500px) {
   body {
     background: green;
 }
+
   h1 {
     font-size: 5px;
     padding: 5px;
   }
+  
   li {
     padding: 5px;
     display: block;

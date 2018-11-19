@@ -112,7 +112,7 @@ input[type=submit]:hover {
     }
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -121,17 +121,17 @@ input[type=submit]:hover {
   transform: translateY(-50%);
 }
 
-/* Style the icon bar links */
+
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 12px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
-/* Style the social media icons with color, if you want */
+
 .icon-bar a:hover {
   background-color: #000;
 }

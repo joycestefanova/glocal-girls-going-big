@@ -1,52 +1,251 @@
 <!DOCTYPE html>
 <head>
 
-    <title>KVARTIRA</title>
+  <title>KVARTIRA</title>
   <link rel="stylesheet" type="text/css" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Emblema One" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <meta name="viewport content" content="width=device-width, initial-scale,initial scale=1.0">
-    <script src="http://code.jquery.com/jquery-3.2.1.min.js">
-    </script>
-    <script src="js/bootstrap.min.js">
-    </script>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js">
+  </script>
+  <script src="js/bootstrap.min.js">
+  </script>
   <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
-    <header>
-      <h1>KVARTIRA</h1>
+  <header>
+    <h1>KVARTIRA</h1>
 
-      <div class="navbar">
-        <ul id="navigation">
-          <li id=nav1><a href="index.html">CONCEPT</a></li>
-          <li id=nav1><a href="about.html">ABOUT</a></li>
-          <li id=nav1><a href="events.html">EVENTS</a></li>
-          <li id=nav1><a href="join.html">CONTACT</a></li>
-        </ul>
+    <div class="navbar">
+      <ul id="navigation">
+        <li id=nav1><a href="index.html">CONCEPT</a></li>
+        <li id=nav1><a href="about.html">ABOUT</a></li>
+        <li id=nav1><a href="events.html">EVENTS</a></li>
+        <li id=nav1><a href="join.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="photos">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .container:hover .image {
+      opacity: 0.3;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      background-color:#000000;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="row">
+      <div class="column">
+        <div class="container">
+          <img src="images/party.png" style="width:550px;height:300px;">
+          <div class="middle">
+            <div class="text">State of the art dancefloors, audio equipment, and sound-proof walls!</div>
+          </div>
+        </div>
+        <h2>Parties</h2>
       </div>
-    </header>
 
-    <div class="photos">
-      <div class="row">
-        <div class="column">
-          <img src="images/party.png" style="width:100%">
-          <h2>Parties</h2>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .container {
+        position: relative;
+        width: 100%;
+      }
+
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container:hover .image {
+        opacity: 0.3;
+      }
+
+      .container:hover .middle {
+        opacity: 1;
+      }
+
+      .text {
+        background-color:	#000000;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+      </style>
+    </head>
+    <body>
+      <div class="column">
+        <div class="container">
+          <img src="images/gig2.jpg" style="width:550px;height:300px;">
+          <div class="middle">
+            <div class="text">Interactive whiteboards, smartboards, and projectors available upon request</div>
+          </div>
         </div>
-        <div class="column">
-          <img src="images/gig2.jpg" style="width:100%">
-          <h2>Seminars</h2>
+        <h2>Seminars</h2>
+      </div>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .container {
+        position: relative;
+        width: 100%;
+      }
+
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container:hover .image {
+        opacity: 0.3;
+      }
+
+      .container:hover .middle {
+        opacity: 1;
+      }
+
+      .text {
+        background-color:	#000000;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+      </style>
+    </head>
+    <body>
+      <div class="column">
+        <div class="container">
+          <img src="images/exh.jpg" style="width:550px;height:300px;">
+          <div class="middle">
+            <div class="text">Easy and compact spaces to display artwork or set up stalls</div>
+          </div>
         </div>
-        <div class="column">
-          <img src="images/exh.jpg" style="width:100%">
-          <h2>Exhibitions</h2>
+        <h2>Exhibitions</h2>
+      </div>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .container {
+        position: relative;
+        width: 100%;
+      }
+
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container:hover .image {
+        opacity: 0.3;
+      }
+
+      .container:hover .middle {
+        opacity: 1;
+      }
+
+      .text {
+        background-color:	#000000;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+      </style>
+    </head>
+    <body>
+      <div class="column">
+        <div class="container">
+          <img src="images/gig.jpg" style="width:550px;height:300px;">
+          <div class="middle">
+            <div class="text">The most perfect and comfortable environment to host performances and intimate gigs</div>
+          </div>
         </div>
-        <div class="column">
-          <img src="images/gig.jpg" style="width:100%">
-          <h2>Gigs</h2>
-        </div>
+        <h2>Gigs</h2>
       </div>
     </div>
+  </div>
 
 
 </body>

@@ -11,8 +11,9 @@ a {
 }
 
 h1 {
-    font-family: "Emblema One";font-size: 150px;
-    color: orange;
+  font-family: "Emblema One";font-size: 100px;
+  color: orange;
+  margin-top: 0px;
 }
 
 h2 {
@@ -58,11 +59,16 @@ article {
 @media (max-width: 500px) {
   body {
     background: green;
-}
+  }
 
   h1 {
     font-size: 50px;
+    padding: 30px;
+  }
+
+  p {
     padding: 5px;
+    margin-left: 20px;
   }
 
   li {
@@ -73,51 +79,51 @@ article {
 
 /* Contact form css */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-family: "Helvetica";font-size: 12px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Helvetica";font-size: 12px;
 }
 
 input[type=submit] {
-    background-color: green;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    font-family: "Emblema One";font-size: 18px;
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Emblema One";font-size: 18px;
 }
 
 input[type=submit]:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .column {
-    float: left;
-    width: 40%;
-    margin-left: 80px;
-    padding: 20px;
-    font-family: "Helvetica";font-size: 12px;
+  float: left;
+  width: 40%;
+  margin-left: 80px;
+  padding: 20px;
+  font-family: "Helvetica";font-size: 12px;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media screen and (max-width: 500px) {
-    .column, input[type=submit] {
-        width: 100%;
-        margin-left: 0;
-    }
+  .column, input[type=submit] {
+    width: 80%;
+    margin-left: 50px;
+  }
 }
 
 /* Social media buttons css */
@@ -213,7 +219,7 @@ input[type=submit]:hover {
 }
 
 .responsive {
-    max-width: 500px;
-    height: 50%;
-    width: auto;
+  max-width: 500px;
+  height: 50%;
+  width: auto;
 }
